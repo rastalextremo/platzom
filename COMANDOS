@@ -1,0 +1,22 @@
+COMANDOS
+npm set init.author.name "Alexander Velasquez"
+npm set init.author.email "rastalextremo@gmail.com"
+npm set init.author.url "http://www.instagram.com/rastalextremo"
+npm login
+mkdir platzom
+cd platzom/
+npm init
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+subl .
+npm install --save-dev babel-cli
+npm install babel-preset-env --save-dev
+npm run build
+npm install --save-dev mocha chai
+npm test
+git init
+git remote add origin [nombre_del_repo_git]
+git add .
+git status
+git commit -m "comentario"
